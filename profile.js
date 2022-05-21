@@ -19,8 +19,6 @@ document.addEventListener("keydown", function (e) {
     );
 
     skillBox.appendChild(firstPara);
-
-    input.focus();
   }
   //   alert(inputValue);
 
@@ -36,8 +34,7 @@ document.addEventListener("keydown", function (e) {
     );
 
     skillBox.appendChild(firstPara);
-    input = "";
-    input.focus();
+
     //   alert(inputValue);
   });
 });
