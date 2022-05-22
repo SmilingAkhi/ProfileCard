@@ -28,7 +28,7 @@ document.addEventListener("keydown", function (e) {
 
 addBtn.addEventListener("click", () => {
   inputValue = input.value;
-
+  input.value = " ";
   const firstPara = document.createElement("div");
 
   firstPara.textContent = inputValue;
